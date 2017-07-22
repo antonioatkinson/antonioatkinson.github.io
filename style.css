@@ -1,0 +1,46 @@
+*{
+  font-family: Futura, Verdana, Candara,Helvetica,Sans-serif;
+}
+.header{
+  padding: 30px;
+  background:#001f3f;
+}
+h1{
+  font-size:40px;
+}
+body{
+  /*background:#001f3f;
+  background:#FFE4B5;
+  background:	#1E90FF;*/
+  color:black;
+  padding:0px;
+  margin:0px;
+}
+body:after{
+	content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #001f3f;
+    width: 100%;
+    height: 100%;
+    opacity : 0.9;
+    z-index: -1;
+}
+.info{
+  font-size:30px;
+}
+.header-button{
+  padding:10px;
+  background:#001f3f;
+  color:white;
+  margin:20px;
+  /*border-color:#001f3f;*/
+  /*border:0px;*/ 
+  border-width:0px 0px 0px 1px;
+}
+#main-header{
+  text-align:center;
+  color:white;
+}
