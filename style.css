@@ -49,8 +49,8 @@ body{
   /*text-align: center;*/ 
   margin:auto;
   background-color: #D3D3D3;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   /*width: 200px;*/
   border: solid;
   box-sizing: border-box;
@@ -58,4 +58,8 @@ body{
 }
 .box{
   padding: 40px;
+}
+.project-image{
+  width:300px;
+  height:200px;
 }
