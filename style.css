@@ -9,14 +9,14 @@ h1{
   font-size:40px;
 }
 body{
-  /*background:#001f3f;
-  background:#FFE4B5;
-  background:	#1E90FF;*/
+  /*background:#001f3f;*/
+  /*background:#FFE4B5;*/ 
+  /*background:	#1E90FF;*/ 
   color:black;
   padding:0px;
   margin:0px;
 }
-body:after{
+/*body:after{
 	content : "";
     display: block;
     position: absolute;
@@ -27,9 +27,10 @@ body:after{
     height: 100%;
     opacity : 0.9;
     z-index: -1;
-}
+}*/ 
 .info{
   font-size:30px;
+  padding:20px;
 }
 .header-button{
   padding:10px;
@@ -40,7 +41,21 @@ body:after{
   /*border:0px;*/ 
   border-width:0px 0px 0px 1px;
 }
-#main-header{
+.main-header{
   text-align:center;
   color:white;
+}
+.project-details{
+  /*text-align: center;*/ 
+  margin:auto;
+  background-color: #D3D3D3;
+  width: 200px;
+  height: 200px;
+  /*width: 200px;*/
+  border: solid;
+  box-sizing: border-box;
+  /*padding-left: 50%;*/ 
+}
+.box{
+  padding: 40px;
 }
