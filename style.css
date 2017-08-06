@@ -76,6 +76,15 @@ body{
   width:300px;
   height:200px;
 }
-.row{
-
+.project-type{
+  text-align: center;
+  margin:auto;
+  color:#2F4F4F ;/*Grey*/
+  width:650px;
+  border-bottom: 1px solid;
+  padding-bottom: :1px;
+  padding-top: 20px;
+}
+.hovered{
+  color:#A9A9A9;
 }
