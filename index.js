@@ -24,6 +24,7 @@ $(document).ready(function(){
 	$(".project-carousel").slick({
 		dots:true,
 		autoplay:true,
-		variableWidth:true
+		variableWidth:true,
+		centerMode:true
 	});
 });
