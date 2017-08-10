@@ -9,25 +9,10 @@ h1{
   font-size:40px;
 }
 body{
-  /*background:#001f3f;*/
-  /*background:#FFE4B5;*/ 
-  /*background:	#1E90FF;*/ 
   color:black;
   padding:0px;
   margin:0px;
 }
-/*body:after{
-	content : "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #001f3f;
-    width: 100%;
-    height: 100%;
-    opacity : 0.9;
-    z-index: -1;
-}*/ 
 .info{
   font-size:30px;
   padding:20px;
@@ -64,18 +49,7 @@ body{
   height:200px;
   padding:20px;
 }
-.project-carousel{
-  padding-top: 20px;
-  width:300px;
-  height:200px;
-  float: none;
-  display: block;
-  margin:0 auto;
-}
-.carousel-image{
-  width:300px;
-  height:200px;
-}
+
 .project-type{
   text-align: center;
   margin:auto;
@@ -88,4 +62,12 @@ body{
 .hovered{
   color:#A9A9A9;
 }
+.more-info{
+  text-decoration: underline;
+ }
+ .project-tiles{
+   width:250px;
+   height:200px;
+   padding:20px;
+ }
  

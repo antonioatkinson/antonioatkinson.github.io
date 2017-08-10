@@ -35,7 +35,7 @@
 </head>
 <body>
   <header class="header">
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-md-4">
         <div class="text-left">
           <h1 class="main-header">Antonio Atkinson</h1>
@@ -49,20 +49,32 @@
             <a href="about.html"><input class="header-button" type="button" value="Contact Information" id="about"></a>
         </div>
       </div>
+    </div> -->
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+         <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     </div>
+    
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="contact.php">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
   </header>
 
   <div class="container">
-    <!-- <h2 class="info">About Me:</h2> -->
-    <div class = "row">
-    <div class = "text-center">
-      <div class = "project-carousel">
-        <img src="eecs281_p4_knapsack.png" class = "carousel-image">
-        <img src="wage_calculator_2.png" class = "carousel-image">
-        <img src="personal_website.png" class = "carousel-image">
-      </div>
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-12">
         <div class="info">
@@ -70,6 +82,11 @@
           <p>For more information about me, check out my <a href="https://www.linkedin.com/in/antonio-atkinson-13b00796/">Linkedin</a> and <a href="https://github.com/antonioatkinson">GitHub.</a></p>
         </div>
       </div>
+    </div>
+    <div>
+      <img src="eecs281_p4_knapsack.png" class = "project-tiles">
+      <img src="wage_calculator_2.png" class = "project-tiles">
+      <img src="personal_website.png" class = "project-tiles">
     </div>
   </div>
 </body>
