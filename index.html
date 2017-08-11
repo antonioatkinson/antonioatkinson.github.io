@@ -2,6 +2,8 @@
 <head>
   <title>Antonio Atkinson | Web Developer</title>
 
+
+  <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -10,7 +12,7 @@
   <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+  
   <!-- Slick -->
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -34,7 +36,7 @@
 
 </head>
 <body>
-  <header class="header">
+  <header>
     <!-- <div class="row">
       <div class="col-md-4">
         <div class="text-left">
@@ -50,47 +52,57 @@
         </div>
       </div>
     </div> -->
-    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-      <div class="container">
-         <div class="navbar-header">
-         <div class="text-left">
-          <h1 class="main-header">Antonio Atkinson</h1>
+    <nav class="navbar navbar-custom navbar-fixed-top">
+      <div class="header">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Antonio Atkinson</a>
+          </div>
+
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="project.html">Projects</a></li>
+              <li><a href="about.html">Contact Information</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
         </div>
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
+      </div>
+    </nav>
 
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="index.php">Home</a></li>
-          <li><a href="about.php">About</a></li>
-          <li><a href="contact.php">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  </header>
+      <ul class="nav navbar-nav">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="contact.php">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+</header>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="info">
-          <p>Description here</p>
-          <p>For more information about me, check out my <a href="https://www.linkedin.com/in/antonio-atkinson-13b00796/">Linkedin</a> and <a href="https://github.com/antonioatkinson">GitHub.</a></p>
-        </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="info">
+        <p>Description here</p>
+        <p>For more information about me, check out my <a href="https://www.linkedin.com/in/antonio-atkinson-13b00796/">Linkedin</a> and <a href="https://github.com/antonioatkinson">GitHub.</a></p>
       </div>
     </div>
-    <div>
-      <img src="eecs281_p4_knapsack.png" class = "project-tiles">
-      <img src="wage_calculator_2.png" class = "project-tiles">
-      <img src="personal_website.png" class = "project-tiles">
-    </div>
   </div>
+  <div>
+    <img src="eecs281_p4_knapsack.png" class = "project-tiles">
+    <img src="wage_calculator_2.png" class = "project-tiles">
+    <img src="personal_website.png" class = "project-tiles">
+  </div>
+</div>
 </body>
 </html>
