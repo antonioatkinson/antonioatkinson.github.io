@@ -73,9 +73,12 @@ body{
  }
 
  /* Navbar styling*/
- .navbar-brand{
+  .navbar-brand{
   color:white;
-  font-size:150%;
+  font-size:180%;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
  }
 .navbar-custom {
     background-color:#229922;
