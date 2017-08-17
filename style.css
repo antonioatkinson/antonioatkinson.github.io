@@ -113,5 +113,33 @@ body{
 .navbar-custom .icon-bar {
     background-color:white;
 } 
-.navbar-custom .navbar
 
+/*Footer styling*/ 
+footer{
+  background-color: #F7BE05;
+  padding: 50px;
+}
+.footer{
+  padding-right: 20px;
+}
+.fa-github{
+  color:black;
+}
+.fa-envelope{
+  color:black;
+}
+.fa-linkedin-square{
+  color:black;
+}
+.fa-codepen{
+  color:black;
+}
+.footer-hover{
+  color:blue;
+}
+.footer-right{
+  position: relative;
+  float: right;
+  text-align: right;
+  padding-right: 0;
+}
