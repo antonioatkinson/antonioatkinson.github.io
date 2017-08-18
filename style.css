@@ -16,6 +16,7 @@ body{
   color:black;
   padding:0px;
   margin:0px;
+  overflow-x: hidden;
 }
 .info{
   font-size:30px;
@@ -27,24 +28,20 @@ body{
   background:#001f3f;
   color:white;
   margin:20px;
-  /*border-color:#001f3f;*/
-  /*border:0px;*/ 
   border-width:0px 0px 0px 1px;
 }
 .main-header{
   text-align:center;
   color:white;
 }
+/*Projects page styling*/ 
 .project-details{
-  /*text-align: center;*/ 
   margin:auto;
   background-color: #D3D3D3;
   width: 400px;
   height: 350px;
-  /*width: 200px;*/
   border: solid;
   box-sizing: border-box;
-  /*padding-left: 50%;*/ 
 }
 .box{
   padding: 40px;
@@ -64,6 +61,41 @@ body{
   padding-bottom: :1px;
   padding-top: 20px;
 }
+
+@media (max-width: 768px) {
+  .project-details{
+    margin:auto;
+    background-color: #D3D3D3;
+    width: 300px;
+    height: 250px;
+    border: solid;
+    box-sizing: border-box;
+  }
+  .project-image{
+    width:150px;
+    height:100px;
+    padding:5px;
+  }
+  .project-header{
+    font-size:20px;
+  }
+  .project-type{
+    text-align: center;
+    margin:auto;
+    color:#2F4F4F ;/*Grey*/
+    width:300px;
+    border-bottom: 1px solid;
+    padding-bottom: :1px;
+    padding-top: 20px;
+  }
+  .box{
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+/*Project's page END*/ 
+
 .hovered{
   color:#A9A9A9;
 }
@@ -146,7 +178,7 @@ footer{
   }
   .footer-right{
     text-align: center !important;
-    
+
   }
 }
 .footer-right{
