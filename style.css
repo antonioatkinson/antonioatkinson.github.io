@@ -184,6 +184,28 @@ footer{
 .footer-right{
   position: relative;
   float: right;
-  text-align: right;
-  
+  text-align: right; 
+}
+/*FOOTER END*/ 
+
+/*Tile styling*/
+.outer-tile{
+  border:solid;
+  border-width:1px;
+  width:207px;
+  padding:2px;
+  border-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tile{
+  border: solid;
+  box-sizing: border-box;
+  width:200px;
+  border-width:1px;
+  text-align: center;
+  background-color: #FCE00C;
+  border-color: #FCE00C;
+}
+.skill-tile{
+  padding: 70px;
 }
