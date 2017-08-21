@@ -32,6 +32,10 @@
 // });
 $(document).ready(function(){
 
+	// $(".tile").mouseenter(function(){
+	// 	$(this).flip();
+	// });
+
 	$(".fa-github").mouseenter(function(){
 		$(this).addClass("footer-hover");
 	});
