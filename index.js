@@ -36,32 +36,38 @@ $(document).ready(function(){
 	// 	$(this).flip();
 	// });
 
-	$(".fa-github").mouseenter(function(){
+	$(".fa-footer").mouseenter(function(){
 		$(this).addClass("footer-hover");
 	});
-	$(".fa-github").mouseleave(function(){
+	$(".fa-footer").mouseleave(function(){
 		$(this).removeClass("footer-hover");
 	});
+	// $(".fa-github").mouseenter(function(){
+	// 	$(this).addClass("footer-hover");
+	// });
+	// $(".fa-github").mouseleave(function(){
+	// 	$(this).removeClass("footer-hover");
+	// });
 
-	$(".fa-envelope").mouseenter(function(){
-		$(this).addClass("footer-hover");
-	});
-	$(".fa-envelope").mouseleave(function(){
-		$(this).removeClass("footer-hover");
-	});
+	// $(".fa-envelope").mouseenter(function(){
+	// 	$(this).addClass("footer-hover");
+	// });
+	// $(".fa-envelope").mouseleave(function(){
+	// 	$(this).removeClass("footer-hover");
+	// });
 
-	$(".fa-linkedin-square").mouseenter(function(){
-		$(this).addClass("footer-hover");
-	});
-	$(".fa-linkedin-square").mouseleave(function(){
-		$(this).removeClass("footer-hover");
-	});
+	// $(".fa-linkedin-square").mouseenter(function(){
+	// 	$(this).addClass("footer-hover");
+	// });
+	// $(".fa-linkedin-square").mouseleave(function(){
+	// 	$(this).removeClass("footer-hover");
+	// });
 
-	$(".fa-codepen").mouseenter(function(){
-		$(this).addClass("footer-hover");
-	});
-	$(".fa-codepen").mouseleave(function(){
-		$(this).removeClass("footer-hover");
-	});
-      $("footer").tooltip({ selector: '[data-toggle=tooltip]' });
+	// $(".fa-codepen").mouseenter(function(){
+	// 	$(this).addClass("footer-hover");
+	// });
+	// $(".fa-codepen").mouseleave(function(){
+	// 	$(this).removeClass("footer-hover");
+	// });
+      
 });

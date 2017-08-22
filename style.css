@@ -160,10 +160,13 @@ footer{
 .footer{
   padding-right: 20px;
 }
-.fa-github{
+/*.fa-github{
+  color:black;
+}*/
+.fa-footer{
   color:black;
 }
-.fa-envelope{
+/*.fa-envelope{
   color:black;
 }
 .fa-linkedin-square{
@@ -171,7 +174,7 @@ footer{
 }
 .fa-codepen{
   color:black;
-}
+}*/
 .footer-hover{
   color:blue;
 }
