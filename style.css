@@ -23,6 +23,12 @@ body{
   padding:20px;
   overflow-wrap: break-word;
 }
+@media (max-width: 768px) {
+.info{
+  font-size:15px;
+  
+}
+  }
 .header-button{
   padding:10px;
   background:#001f3f;
@@ -206,6 +212,19 @@ footer{
   background-color: #FCE00C;
   border-color: #FCE00C;
 }
+.class-tile{
+border: solid;
+  box-sizing: border-box;
+  width:200px;
+  border-width:1px;
+  text-align: center;
+  background-color: #365C9E;
+  border-color: #FCE00C;
+}
+.border-tile{
+  padding-top:20px;
+  padding-bottom: 20px;
+}
 .skill-tile{
   padding: 70px;
 }
@@ -220,3 +239,4 @@ footer{
   margin:auto;
 }
   }
+  /*End border styling*/ 
