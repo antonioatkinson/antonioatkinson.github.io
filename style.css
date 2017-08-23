@@ -1,5 +1,6 @@
 *{
   font-family: Futura, Verdana, Candara,Helvetica,Sans-serif;
+  /*font-family: Serif;*/
 }
 .header{
   padding: 30px;
@@ -115,6 +116,46 @@ body{
 }
 
 /* Navbar styling*/
+/*.navbar-custom {
+  border-color: #229922;
+}
+.navbar-brand{
+  color:white;
+  font-size:180%;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+  color: black;
+  background-color:white;
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+  text-decoration: none;
+  background-color: white;
+  color:black;
+}
+.navbar-custom .navbar-brand {
+  color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+  background-color:#001f3f;
+}
+.navbar-custom .icon-bar {
+  background-color:white;
+} */
+
+
+
 .navbar-custom {
   /*border-color: #229922;*/
 }
@@ -133,6 +174,9 @@ body{
 .navbar-custom .navbar-nav > .active > a {
   color: black;
   background-color:white;
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
 }
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus,
@@ -160,21 +204,9 @@ footer{
 .footer{
   padding-right: 20px;
 }
-/*.fa-github{
-  color:black;
-}*/
 .fa-footer{
   color:black;
 }
-/*.fa-envelope{
-  color:black;
-}
-.fa-linkedin-square{
-  color:black;
-}
-.fa-codepen{
-  color:black;
-}*/
 .footer-hover{
   color:blue;
 }
