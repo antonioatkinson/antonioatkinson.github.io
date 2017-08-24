@@ -185,6 +185,7 @@ body{
 .navbar-custom .navbar-nav > .open >a {
   text-decoration: none;
   background-color: white;
+  color:black;
 }
 .navbar-custom .navbar-brand {
   color:#eeeeee;
@@ -274,4 +275,8 @@ border: solid;
   margin:auto;
 }
   }
+  /*.skills{
+    background-color: #D3D3D3;
+    padding: 0px;
+  }*/
   /*End border styling*/ 
