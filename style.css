@@ -12,6 +12,8 @@ header{
 }
 .heading{
   /*font-weight: bolder;*/
+  /*text-transform: uppercase;
+  font-weight: bold;*/
 }
 .profile-pic{
   width:230px;
@@ -45,6 +47,9 @@ body{
   float: none;
   display: block;
   margin:auto;
+  }
+  .heading{
+    text-align: center;
   }
 }
 .header-button{
