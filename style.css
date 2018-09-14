@@ -15,6 +15,19 @@ header{
   /*text-transform: uppercase;
   font-weight: bold;*/
 }
+/*.container{
+  padding: 0;
+  margin:0;
+  width:100%;
+}
+.skills{
+  background-color: #ebebeb;
+  overflow:visible;
+  width:100%;
+  margin:0;
+  /*padding: 20px;*/
+}
+.classes{}
 .profile-pic{
   width:230px;
   height:200px;
@@ -101,6 +114,7 @@ body{
     height: 250px;
     border: solid;
     box-sizing: border-box;
+    border-width: thin;
   }
   .project-image{
     width:150px;
@@ -273,6 +287,7 @@ footer{
   border-color: #FCE00C; Original colors*/
   background-color: #262658;
   color:#FCE00C;
+  border-color: white;
 }
 .class-tile{
 border: solid;
